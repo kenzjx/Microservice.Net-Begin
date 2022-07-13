@@ -1,4 +1,5 @@
 # Techology
+
 Net6 - Mongodb - RabbitMQ - ReactJs
 
 # Install Mongodb and Rabbit
@@ -6,6 +7,7 @@ Net6 - Mongodb - RabbitMQ - ReactJs
 cd /src/infra/
 run docker-compose up -d
 --default connect: mongodb://admin:admin@localhost
+
 # Run Catalog.Service
 
 dotnet restore
@@ -22,8 +24,8 @@ dotnet run
 
 #View Image
 
-	
-![alt text](./image/Catalog.png?raw=true)
-	---------------------------------------------------------------------
-![alt text](./image/Inventory.png?raw=true)
+## ![alt text](./image/catalog.png?raw=true)
 
+# --------------------------------------------
+
+![alt text](./image/Inventory.png?raw=true)

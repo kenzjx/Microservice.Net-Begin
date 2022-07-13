@@ -1,6 +1,6 @@
 # Techology
 
-Net6 - Mongodb - RabbitMQ - ReactJs
+Net6 - Mongodb - Docker - RabbitMQ - ReactJs
 
 # Install Mongodb and Rabbit
 

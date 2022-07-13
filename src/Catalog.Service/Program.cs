@@ -1,17 +1,26 @@
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
+using Catalog.Service.Entities;
+using Common.MassTransit;
+using Common.MongoDb;
+using Common.Settings;
+
+ServiceSettings serviceSettings;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
+
+builder.Services.AddMongo().AddMongRepository<Item>("items")
+.AddMasTransitWithRabbitMq();
+
+
+
+// builder.Services.AddMassTransitHostedService();
 
 builder.Services.AddControllers(options =>
 {
     options.SuppressAsyncSuffixInActionNames = false;
 });
-
-BsonSerializer.RegisterSerializer(new GuidSerializer(MongoDB.Bson.BsonType.String));
-BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(MongoDB.Bson.BsonType.String));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

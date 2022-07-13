@@ -1,6 +1,9 @@
+using Common;
+
 namespace Catalog.Service.Entities
 {
-    public class Item
+
+    public class Item : IEntity
     {
         public Guid Id { set; get; }
 

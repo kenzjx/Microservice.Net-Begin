@@ -37,11 +37,20 @@ services:
       - mongo_net
     depends_on:
       - my-mongodb
-    
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - rabbitmqdata:/var/lib/rabbitmq
+    hostname: rabbitmq 
 volumes:
   # default dir on Ubuntu: /var/lib/docker/volumes
   mongodb:
   mongoconfig:
+  rabbitmqdata:
 
 networks:
   mongo_net:

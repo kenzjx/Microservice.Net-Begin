@@ -4,6 +4,12 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 *.vscode/*
 # User-specific files
+
+/src/frontend/node_modules/
+./src/frontend/node_modules/
+/src/frontend/.vscode/
+
+*.gitignore
 *.rsuser
 *.suo
 *.user
@@ -13,8 +19,32 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+
+/src/Common[Dd]ebug/
+/src/Common[Dd]ebugPublic/
+/src/Common[Rr]elease/
+/src/Common[Rr]eleases/
+/src/Common/[Bb]in/
+/src/Common/[Oo]bj/
+/src/Common/[Ll]og/
+
 # Mono auto generated files
 mono_crash.*
+
+/src/Inventory.Service[Dd]ebug/
+/src/Inventory.Service[Dd]ebugPublic/
+/src/Inventory.Service[Rr]elease/
+/src/Inventory.Service[Rr]eleases/
+/src/Inventory.Servicex64/
+/src/Inventory.Servicex86/
+/src/Inventory.Service[Ww][Ii][Nn]32/
+/src/Inventory.Service[Aa][Rr][Mm]/
+/src/Inventory.Service/[Aa][Rr][Mm]64/
+/src/Inventory.Service/bld/
+/src/Inventory.Service/[Bb]in/
+/src/Inventory.Service/[Oo]bj/
+/src/Inventory.Service/[Ll]og/
+/src/Inventory.Service/[Ll]ogs/
 
 # Build results
 /src/Catalog.Service[Dd]ebug/

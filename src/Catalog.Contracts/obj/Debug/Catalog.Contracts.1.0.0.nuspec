@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Catalog.Contracts</id>
+    <version>1.0.0</version>
+    <authors>Catalog.Contracts</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="masstransit.aspnetcore" version="7.3.1" exclude="Build,Analyzers" />
+        <dependency id="masstransit.rabbitmq" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/phong/Desktop/Microservices/src/Catalog.Contracts/bin/Debug/net6.0/Catalog.Contracts.dll" target="lib/net6.0/Catalog.Contracts.dll" />
+  </files>
+</package>

@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/phong/Desktop/Microservices/src/Catalog.Contracts/Catalog.Contracts.csproj": {}
+  },
+  "projects": {
+    "/home/phong/Desktop/Microservices/src/Catalog.Contracts/Catalog.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/phong/Desktop/Microservices/src/Catalog.Contracts/Catalog.Contracts.csproj",
+        "projectName": "Catalog.Contracts",
+        "projectPath": "/home/phong/Desktop/Microservices/src/Catalog.Contracts/Catalog.Contracts.csproj",
+        "packagesPath": "/home/phong/.nuget/packages/",
+        "outputPath": "/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/phong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/phong/Desktop/Microservices/src/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "masstransit.aspnetcore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "masstransit.rabbitmq": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

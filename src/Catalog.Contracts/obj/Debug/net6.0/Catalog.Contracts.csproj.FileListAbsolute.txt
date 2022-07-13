@@ -1,0 +1,12 @@
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/bin/Debug/net6.0/Catalog.Contracts.deps.json
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/bin/Debug/net6.0/Catalog.Contracts.dll
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/bin/Debug/net6.0/Catalog.Contracts.pdb
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.csproj.AssemblyReference.cache
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.AssemblyInfoInputs.cache
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.AssemblyInfo.cs
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.csproj.CoreCompileInputs.cache
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.dll
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/refint/Catalog.Contracts.dll
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/Catalog.Contracts.pdb
+/home/phong/Desktop/Microservices/src/Catalog.Contracts/obj/Debug/net6.0/ref/Catalog.Contracts.dll
